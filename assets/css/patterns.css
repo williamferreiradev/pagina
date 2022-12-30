@@ -1,0 +1,53 @@
+.btn-primary{
+    display: block;
+    color: var(---white);
+    border: 1px solid rgba(172, 255, 47, 0.363);
+    background: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 1.8rem;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover{
+    border: 1px solid var(---btn-hover);
+}
+ 
+.btn{
+    background-color: var(---btn);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: var(---dark);
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(---btn-hover);
+    transform: scale(1.05);
+}
+
+span{
+    color: var(---span);
+}
+
+h1{
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(---white);
+}
+
+h2{
+    font-size: 3.2rem;
+    line-height: 48px;
+    font-weight: 400;
+
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 25.2px;
+}
