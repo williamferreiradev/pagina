@@ -16,3 +16,84 @@ body{
     line-height: 2.4rem;
     font-weight: 500;
 }
+
+.header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 0;
+    right: 0;
+    height: 9rem;
+    background-color: var(---dark);
+    z-index: 1000;
+    width: 100%;
+    transition: all 0.3s;
+  }
+  
+  .header.fixed {
+    position: fixed;
+    top: 0;
+    background-color: #030007c4;
+    backdrop-filter: blur(10px);
+  }
+  
+
+.header .container h3{
+    color: var(---white);
+}
+
+.header .container span{
+    color: var(---span);
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar .list{
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+    margin-right: 1rem;
+}
+
+.header .navbar .list li a{
+    display: block;
+    color: var(---white);
+    transition: all 0.3s;
+}
+
+.header .navbar .list li a:hover{
+    color: var(---contrast);
+}
+
+.menu-item:last-child{
+    margin-right: 4.8rem;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: var(---white);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* FINAL HEADER */
