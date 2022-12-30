@@ -1,0 +1,12 @@
+:root{
+    ---primary: linear-gradient(227.23deg, #78E3D1 7.65%, #A6FB98 67.82%);
+    ---btn: #A6FB98;
+    ---btn-hover: #98df8d;
+    ---span: #A6FB98;
+    ---contrast: #78E3D1;
+    ---dark: #030007;
+    ---white: #fff;
+    ---dark-400: #130B1D;
+    ---dark-200: #08040D;
+    ---grey: #BFBFBF;
+}
