@@ -14,3 +14,16 @@ links.forEach(link => {
         navMenu.classList.remove('active');
     });
 });
+
+var off = document.querySelector(".off");
+var header = document.querySelector("header");
+
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > off.offsetTop) {
+        header.classList.add("fixed");
+    } else {
+        header.classList.remove("fixed");
+    }
+});
+
