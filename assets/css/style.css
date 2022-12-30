@@ -161,7 +161,7 @@ body{
     gap: 2.4rem;
 }
 
-.se-hero .card-hero .offer-card h4{
+.se-hero .card-hero .offer-card span{
     background-color: var(---dark);
     color: var(---white);
     padding: 2px 28px;
@@ -311,8 +311,9 @@ body{
     margin-bottom: 0.4rem;
 }
 
-.creator .box-info .info h4{
-    font-weight: 300;
+.creator .box-info .info .span-info{
+    color: var(---grey);
+    font-weight: 600;
     margin-bottom: 4rem;
 }
 
