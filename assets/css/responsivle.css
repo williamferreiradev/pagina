@@ -1,0 +1,40 @@
+@media(max-width: 1200px){
+
+    /* DIMINUINDO O TAMANHO DO CARD DA SECTION HERO */
+    .se-hero .card-hero{
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* DIMINUINDO O TAMANHO DO CARD DA SECTION BENEFI E DIMINUINDO AS FONTES */
+    .benefi .cards-benefi{
+        width: 95%;
+        gap: 4rem;
+    }
+
+    .benefi .cards-benefi .card{
+        width: 100%;
+    }
+    .benefi .cards-benefi .card p , .benefi .cards-benefi .card h3{
+        font-size: 75%;
+    }
+
+    
+    /* DIMINUINDO O TAMANHO DO CARD DA SECTION BENEFI E DIMINUINDO AS FONTES */
+    .tecnology .cards-tec .card{
+        width: 100%;
+        max-width: 24rem;
+        justify-content: space-between;
+        
+    }
+
+    .tecnology .cards-tec .card p, .tecnology .cards-tec .card h3{
+        font-size: 75%;
+    }
+
+
+    .go .go-box{
+        gap: 5rem;
+    }
+}
