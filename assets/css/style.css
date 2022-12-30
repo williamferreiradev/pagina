@@ -250,3 +250,85 @@ body{
     color: var(---grey);
     font-size: 1.2rem;
 }
+
+/* SECTION CREATOR  */
+
+
+.creator{
+    padding: 8rem 0;
+}
+
+.creator .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.creator .box-info{
+    background-color: var(---dark-400);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.4rem ;
+}
+
+.creator .area-left{
+    width: 100%;
+}
+.creator .area-left img{
+    max-width: 450px;
+    padding: 4.1rem;
+}
+
+.creator .area-left .box{
+    position: relative;
+    top: -383px;
+    left: 50px;
+    background-color: var(---white);
+    width: 10rem;
+    border-radius: 16px;
+}
+.creator .area-left .box h3{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.creator .box-info .info{
+    display: flex;
+    flex-direction: column;
+    color: var(---white);
+}
+
+.creator .box-info .info .i{
+    font-size: 2rem;
+    color: var(---contrast);
+    margin-bottom: 0.8rem;
+}
+
+.creator .box-info .info h2{
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+}
+
+.creator .box-info .info h4{
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.creator .box-info .info p{
+    width: 85%;
+    margin-bottom: 5.7rem;
+}
+
+.creator .box-info .sociais{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5.6rem;
+    align-items: center;
+}
+
+.creator .box-info .sociais img{
+    background-color: var(---dark);
+    
+}
