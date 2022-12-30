@@ -97,3 +97,107 @@ body{
 
 
 /* FINAL HEADER */
+
+
+/* SECTION HERO */
+
+.se-hero{
+    padding: 10rem 0;
+    margin-top: 8rem;
+}
+
+.se-hero .container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.se-hero .content{
+    width: 100%;
+    max-width: 592px;
+    padding-top: 4rem;
+}
+
+.se-hero .content h1{
+    font-size: 4.5rem;
+}
+
+.se-hero .content p{
+    color: var(---grey);
+    width: 100%;
+    font-size: 1.9rem;
+    margin-top: 4rem;
+}
+
+.se-hero .content span{
+    color: var(---span);
+    font-size: 4.8rem;
+}
+
+.content .icon{
+    width: 100%;
+    max-width: 31.1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.icon a{
+    font-size: 1.6rem;
+    color: var(---white);
+}
+
+.se-hero .card-hero{
+    background-color: var(---white);
+    width: 100%;
+    max-width: 40rem;
+    border-radius: 4px;
+}
+
+.se-hero .card-hero .offer{
+    padding-left: 3.2rem;
+    display: flex;
+    align-items: center;
+    padding-top: 3.2rem;
+    gap: 2.4rem;
+}
+
+.se-hero .card-hero .offer-card h4{
+    background-color: var(---dark);
+    color: var(---white);
+    padding: 2px 28px;
+    border-radius: 4px;
+}
+
+.se-hero .card-hero .price{
+    padding-left: 3.2rem;
+    display: flex;
+    align-items: center;
+    padding-top: 3.6rem;
+}
+
+
+.p-price p:first-child{
+    font-size: 2.4rem;
+    text-decoration: line-through;
+}
+
+.p-price p:last-child{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.p-price h4{
+    font-size: 72px;
+}
+
+.price .p-price .btn{
+    display: inline-block;
+    margin-top: 7.3rem;
+    width: 100%;
+    max-width: 40rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
