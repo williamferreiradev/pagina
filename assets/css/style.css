@@ -3,3 +3,16 @@
 body{
     background-color: var(---dark);
 }
+
+.off{
+    width: 100%;
+    text-align: center;
+    background-color:#A6FB98;
+    padding: 1rem 0;
+}
+.off span{
+    color: black;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
