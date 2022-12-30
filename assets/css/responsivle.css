@@ -38,3 +38,164 @@
         gap: 5rem;
     }
 }
+
+@media(max-width: 991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .list{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        background-color: #05050579;
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        flex-direction: column;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .menu-item{
+        margin: 16px 0 ;
+    }
+    .list.active{
+        left: 0;
+    }
+
+    .list.close{
+        visibility: hidden;
+    }
+
+    .se-hero .container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .se-hero .card-hero{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .se-hero .card-hero .offer{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .se-hero .card-hero .price{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content p{
+        margin-bottom: 5rem;
+    }
+
+    .content .icon{
+        align-items: flex-end;
+        
+    }
+
+    .benefi .cards-benefi{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .benefi .cards-benefi .card{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+
+    .creator .container .box-info{ 
+        flex-direction: column;
+        width: 100%;
+    }
+    .creator .area-left {
+        width: 100%;
+    }
+    .creator .area-left img{
+        width: 100%;
+        max-width: 60rem;
+    }
+
+    .creator .container .info{
+        font-size: 80%;
+        padding-left: 5rem;
+    }
+
+    .creator .box-info .info h4{
+        margin-bottom: 1.5rem;
+    }
+
+    .creator .box-info .info p{
+        width: 75%;
+        margin-bottom: 4rem;
+    }
+
+    .creator .box-info .sociais{
+        margin-bottom: 3rem;
+    }
+
+
+    .tecnology{
+        padding: 1rem 0;
+    }
+
+    .tecnology .cards-tec{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tecnology .cards-tec .card{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .go-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .go-box .area-left{
+        margin-left: 0;
+    }
+
+    .go-box .membros{
+        align-items: center;
+        text-align: center;
+    }
+}
