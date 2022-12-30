@@ -199,3 +199,33 @@
         text-align: center;
     }
 }
+
+@media (max-width: 488px){
+    html{
+        font-size: 45%;
+    }
+
+    
+    
+    .se-hero .card-hero .price .p-price h4{
+        font-size: 7rem;
+    }
+
+    .creator .box-info .info p{
+        font-size: 1.5rem;
+    }
+
+    .creator .box-info .sociais img{
+        width: 7%;
+    }
+
+    .creator .area-left .box{
+        display: none;
+    }
+
+
+    .footer .container{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+}
